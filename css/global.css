@@ -1,0 +1,31 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 4579px;
+    width: 100%;
+    min-width: 960px;
+    max-width: 1200px;
+    margin: 0 164px;
+  }
+  .main-home{   
+    height: 2815px;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+

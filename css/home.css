@@ -1,0 +1,328 @@
+.main-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.banner {
+    justify-content: end;
+    align-items: end;
+    background-image: url(../assets/banner.png);
+    position: relative;
+    width: 1198px;
+    height: 650px;
+    display: flex;
+}
+
+.banner-presentation-area{
+margin: 47px 12px;
+width: 592px;
+height: 236px;
+background: rgba(255, 255, 255, 0.8);
+}
+
+.banner-presentation-area h1 {
+    position: relative;
+    justify-content: space-around;
+    margin:36px 112px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #0CA778;
+}
+  
+span {
+    margin: 36px 73px;
+    display: flex;
+    width: 446px;
+    height: 116px;
+    justify-content: space-around;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 116px;
+    color: #244242;
+}
+.SERVIÇOS-MAIN{  
+    margin-top: 100px;
+    height: 764px;
+    width: 1200px;
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.SERVIÇOS-H1{
+margin: 0px;
+justify-content: center;
+display: flex;
+align-items: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77.45px;
+text-align: right;
+
+color: #244242;
+
+    
+}
+.SERVIÇOS-H1-CONTEINER{
+    width: 328px;
+    height: 77px;
+}
+
+.APRESENTAÇÃO-IMG {
+    justify-content: space-around;
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    width: 1127px;
+    height: 487px;
+    background: #FFFFFF;
+}
+.card{
+    width: 320px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+}
+.card h1{
+display: flex;
+justify-content: center;
+margin: 10px 10px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: -0.28999999165534973px;
+text-align: center;
+
+}
+.card h2{
+margin: 10px 24px;
+display: flex;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+text-align: justify;
+color: #244242;
+}
+.nossa-equipe {
+    width: 1200px;
+    height: 900px;
+
+}
+.nossa-equipe h1 {
+    width: 478px;
+    height: 77px;
+    margin: 0px 363px 100px 359px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #244242;
+}
+    .nossa-equipe div {
+        margin: 10px 16px;
+        width: 246px;
+        height: 352px;
+        display: inline-block;
+
+}
+
+.jose {
+    margin-left: 38px;
+    margin-right: 45px;
+
+}
+
+.mariana {
+
+    margin-right: 47px;
+}
+
+.regina {
+
+    margin-right: 34px;
+}
+
+
+.gabriel {
+    margin-left: 38px;
+
+}
+
+.fernanda {
+    margin-left: 45px;
+
+}
+
+.leandro {
+
+    margin-left: 45px;
+}
+
+.nossa-equipe h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.29px;
+    text-transform: uppercase;
+    color: #244242;
+}
+
+.nossa-equipe h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #244242;
+}
+
+.nossa-equipe img {
+
+    width: 246px;
+    height: 288px;
+    border-radius: 8px;
+}
+.quem-somos {
+    display: block;
+}
+
+.quem-somos h1 {
+
+    
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+    color: #244242;
+}
+
+
+
+.qs-card1 {
+
+    width: 1127px;
+    height: 456px;
+    margin: 0px 51px 112px 38px;
+    display: flex;
+    justify-content: space-between;
+    gap: 41px;
+
+}
+
+
+.qs-card1 img {
+
+    width: 526px;
+    height: 456px;
+    border-radius: 8px
+}
+
+.quem-somos h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+
+}
+
+.quem-somos p {
+
+    width: 560px;
+    height: 392px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+
+.texto-card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 560px;
+    height: 456px;
+
+
+}
+
+.texto-card1 h2 {
+    width: 389px;
+    height: 44px;
+    margin-left: 171px;
+
+}
+
+.texto-card1 p {
+    gap: 20px;
+
+    text-align: right;
+
+    color: #244242;
+
+}
+
+.qs-card2 {
+    width: 1111px;
+    height: 456px;
+    margin: 0px 51px 110px 38px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.texto-card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 560px;
+    height: 453px;
+}
+
+.texto-card2 h2 {
+    margin-right: 171px;
+}
+
+.qs-card2 img {
+    width: 526px;
+    height: 456px;
+    border-radius: 8px;
+}
+
+
